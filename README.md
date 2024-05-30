@@ -1,1 +1,3 @@
 # Data-&-Codes-TFM-2024
+There are two R scripts: Script_TFM_Part1 and Script_TFM_Part2.
+Script_TFM_Part1 builds species distribution models with GLM, GAM, MAXENT and BART with data available in the Raw.data_filtered.xlsx file. This script includes a five-block cross-validation process. Script_TFM_Part2 computes niche breadth and makes spatial predictions of habitat favourability throughout the MIS3. As the data and code in this repository are complete, it can be reproduced with only an R environment (tested for R v4.1.0) in RStudio. The necessary package dependencies are documented in each .R file.The content of this repository is part of a Master's Thesis by Noelia Cecilla Priego at the University of Cantabria.
